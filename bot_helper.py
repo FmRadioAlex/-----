@@ -62,8 +62,10 @@ def main():
 
         elif command=="all":
             show_all()
+
         elif command in ["cls","clear"]:
             os.system('cls')
+            
         else:
             print("Invalid command.")
 
